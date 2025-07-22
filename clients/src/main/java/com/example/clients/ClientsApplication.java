@@ -11,7 +11,6 @@ import org.springframework.web.client.RestClient;
 import org.springframework.web.client.support.RestClientHttpServiceGroupConfigurer;
 import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.service.registry.AbstractHttpServiceRegistrar;
-import org.springframework.web.service.registry.ImportHttpServices;
 
 @SpringBootApplication
 public class ClientsApplication {
@@ -24,7 +23,6 @@ public class ClientsApplication {
     RestClient.Builder restClientBuilder() {
         return RestClient.builder();
     }
-
 
     @Bean
     ApplicationRunner runner(CatFactClient client) {
