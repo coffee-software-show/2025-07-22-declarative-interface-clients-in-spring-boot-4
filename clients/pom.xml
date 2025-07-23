@@ -32,7 +32,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-restclient</artifactId>
+			<version>4.0.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
